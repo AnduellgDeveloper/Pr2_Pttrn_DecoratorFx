@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.parcial2.cafeteriaapp.ViewController.CafeViewController">
+    <children>
+        <Label layoutX="200.0" layoutY="121.0" text="Costo:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="txtCafe" layoutX="309.0" layoutY="144.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="199.0" layoutY="144.0" text="Ingredientes:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="txtCosto" layoutX="261.0" layoutY="121.0" text="\$">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnCalcular" layoutX="225.0" layoutY="74.0" mnemonicParsing="false"  prefHeight="36.0" prefWidth="137.0" text="Calcular" />
+        <CheckBox fx:id="chBLeche" layoutX="186.0" layoutY="39.0" mnemonicParsing="false"  text="Leche">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </CheckBox>
+    </children>
+</AnchorPane>
